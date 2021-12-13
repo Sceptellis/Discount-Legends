@@ -7,7 +7,7 @@ using TMPro;
 public class RoomListObject : MonoBehaviour
 {
     [SerializeField] private TMP_Text _roomName;
-    RoomInfo _info; 
+    public RoomInfo _info; 
     
     // Start is called before the first frame update
     void Start()
